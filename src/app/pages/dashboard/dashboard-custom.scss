@@ -1,0 +1,71 @@
+.form-check.form-check-solid .form-check-input:checked {
+  background-color: #009ef7 !important;
+}
+.card .card-header {
+  align-items: center !important;
+}
+.font-family-tree {
+  font-family: Poppins, Helvetica, 'sans-serif';
+}
+.bword {
+  white-space: break-spaces;
+  cursor: pointer;
+}
+// Tooltips
+.apexcharts-tooltip {
+  &.apexcharts-theme-light {
+    border-radius: 6px;
+    //   box-shadow: $dropdown-box-shadow;
+    border: none !important;
+    background: white !important;
+    color: gray;
+
+    .apexcharts-tooltip-title {
+      background: #f3f6f9 !important;
+      color: gray;
+      font-size: 10px !important;
+      border: none !important;
+    }
+  }
+
+  .apexcharts-tooltip-title {
+    padding: 0.5rem 1rem;
+  }
+
+  .apexcharts-tooltip-series-group {
+  }
+}
+
+.apexcharts-xaxistooltip {
+  &.apexcharts-theme-light {
+    border: none !important;
+    background: #f3f6f9 !important;
+    color: #323248;
+    border-radius: 6px;
+    margin-top: 8px;
+
+    &:before {
+      border-bottom: 0 !important;
+    }
+
+    &:after {
+      border-bottom-color: #f3f6f9 !important;
+    }
+  }
+}
+
+.apexcharts-yaxistooltip {
+  &.apexcharts-theme-light {
+    border: none !important;
+    background: lightgray !important;
+    color: #323248;
+
+    &:before {
+      border-bottom: 0 !important;
+    }
+
+    &:after {
+      border-bottom-color: #323248 !important;
+    }
+  }
+}

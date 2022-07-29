@@ -1,0 +1,33 @@
+.feedback-text {
+  display: none;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+.delivery-feedback:hover {
+  color: red;
+  width: 124px;
+}
+button.delivery-feedback:hover {
+  width: 130px !important;
+}
+button.delivery-feedback:hover > span {
+  display: inline-block;
+  color: white;
+}
+
+
+button.delivery-feedback {
+  // background:#c3c;
+  width:0%;
+  overflow:hidden;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}

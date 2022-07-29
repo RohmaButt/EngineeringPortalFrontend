@@ -1,0 +1,130 @@
+.seperator-tall {
+  margin-top: 20px !important;
+}
+
+.separatorLine {
+  opacity: 0.3;
+  height: 1px;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+
+.doc-container {
+  box-sizing: content-box;
+  padding: 0 5vw;
+  // margin: auto;
+  font-size: 16px;
+  line-height: var(--doc-line-height);
+  min-height: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.mini-sidebar .doc-container {
+  padding: 0 0 !important;
+}
+
+.expand-menu .doc-container {
+  padding: 0 5vw !important;
+}
+
+.doc-content {
+  flex-grow: 1;
+}
+
+.doc-content h2 {
+  color: black !important;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  color: black;
+}
+
+.ul-margin {
+  padding-left: 50px !important;
+}
+
+.custom-table-container {
+  display: table-cell;
+  overflow-x: auto;
+  width: 100%;
+  box-shadow: 0 0 0px #ffffff !important;
+  background-color: #fff !important;
+  border-radius: 15px;
+}
+
+.custom-th-td {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.custom-table-tr {
+  display: flex;
+  padding: 10px;
+}
+
+.custom-table-text {
+  font-weight: 300 !important;
+  font-size: small;
+}
+
+.sub-menu {
+  list-style-type: none;
+}
+.sub-menu li a {
+  color: black;
+}
+
+.sub-menu li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.doc-title {
+  font-size: 30px;
+  line-height: 1.5em;
+  font-weight: 200;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.doc-layout {
+  margin: 20px 0;
+  vertical-align: baseline;
+}
+
+.doc-layout.note {
+  background: #e7f2fa;
+  padding: 12px;
+  border-left: 10px solid #6ab0de;
+}
+.doc-sub-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: right;
+  top: 80%;
+  margin-right: 30px;
+}
+.separator-short {
+  margin-top: 10px;
+}
+
+.sub-menu-with-metronic {
+  list-style-type: none;
+}
+.sub-menu-with-metronic li a {
+  color: black;
+}

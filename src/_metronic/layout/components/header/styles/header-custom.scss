@@ -1,0 +1,75 @@
+.logout-custom {
+  cursor: pointer;
+}
+.css-ja5taz-MuiTooltip-tooltip {
+  color: gray !important;
+  background-color: white !important;
+}
+.pointer-events-none {
+  pointer-events: none;
+  // background: gray;
+}
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+@media (min-width: 810px) {
+  .feedback-text-see {
+    padding-left: 22px;
+  }
+}
+@media (min-width: 1170px) {
+  .feedback-text-see {
+    padding-left: 12px;
+  }
+}
+@media (min-width: 1520px) {
+  .feedback-text-see {
+    padding-left: 1px;
+  }
+}
+@media (min-width: 1700px) {
+  .feedback-text-see {
+    padding-left: 170px;
+  }
+}
+.flex-parent {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1180px) {
+  .flex-parent {
+    display: flex;
+    align-items: center;
+    // margin: 30px 0;
+    width: 650px;
+  }
+  .long-and-truncated {
+    flex: 1;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (max-width: 810px) {
+  .flex-parent {
+    display: flex;
+    align-items: center;
+
+    // margin: 30px 0;
+    width: 200px;
+  }
+  .long-and-truncated {
+    flex: 1;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (max-width: 400px) {
+  .flex-parent {
+    display: none;
+  }
+}

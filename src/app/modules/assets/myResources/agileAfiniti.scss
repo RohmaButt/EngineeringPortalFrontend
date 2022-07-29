@@ -1,0 +1,22 @@
+div.sticky-menu {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: left;
+  top: 20%;
+  margin-left: 30px;
+}
+.top-menu {
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .afiniti-container,
+  .container {
+    // max-width: 1380px !important;
+  }
+}
+
+.doc-sub-title {
+  padding-top: 52px;
+  padding-bottom: 20px;
+}

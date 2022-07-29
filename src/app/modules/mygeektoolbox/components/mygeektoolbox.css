@@ -1,0 +1,16 @@
+.swagger-ui .wrapper{
+  padding-left : 30px !important;    
+  padding-top: 0px !important;    
+}
+
+.swagger-ui .servers {
+  padding-top: 1rem;
+}
+
+.swagger-ui .scheme-container {
+  border-radius: 0.475rem;
+}
+
+.service-catalog {
+  border-radius: 0.475rem;
+}
